@@ -10,3 +10,6 @@ To do the same:
    AtomicKotlin to the Edutools plugin
 3. Check out the [AtomicKotlin book
    sample](https://www.atomickotlin.com/sample/)
+
+Note: as of 2019-04-03, something on the stepik site is causing high processor
+utilization. Recommend printing to PDF and closing tab for each new lesson.
