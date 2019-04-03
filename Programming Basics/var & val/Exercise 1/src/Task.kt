@@ -1,5 +1,7 @@
 package varandval1
 
 fun main(args: Array<String>) {
-    TODO()
+    var answer = 42
+    answer = 43
+    println(answer)
 }
