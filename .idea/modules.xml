@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/AtomicKotlin.iml" filepath="$PROJECT_DIR$/.idea/AtomicKotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/AtomicKotlin.iml" filepath="$PROJECT_DIR$/.idea/AtomicKotlin.iml" group="AtomicKotlin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AtomicKotlin_main.iml" filepath="$PROJECT_DIR$/.idea/modules/AtomicKotlin_main.iml" group="AtomicKotlin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AtomicKotlin_test.iml" filepath="$PROJECT_DIR$/.idea/modules/AtomicKotlin_test.iml" group="AtomicKotlin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/util.iml" group="AtomicKotlin/util" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/util_main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/util_main.iml" group="AtomicKotlin/util" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/util_test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/util_test.iml" group="AtomicKotlin/util" />
     </modules>
   </component>
 </project>

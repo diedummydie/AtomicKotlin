@@ -1,7 +1,7 @@
 // HelloWorld/HelloWorld.kt
 
 fun main(args: Array<String>) {
-  println("Hello, world!")
+  println("Hallo, world!")
 }
 /* Output:
 Hello, world!
