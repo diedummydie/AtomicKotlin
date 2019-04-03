@@ -22,8 +22,12 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-# https://github.com/JetBrains/kotlin/blob/master/.gitignore
+# custom
+.gradle/4.8/fileHashes/*
+.gradle/buildOutputCleanup/*
+.idea/workspace.xml
 
+# https://github.com/JetBrains/kotlin/blob/master/.gitignore
 .DS_Store
 .idea/shelf
 /android.tests.dependencies
