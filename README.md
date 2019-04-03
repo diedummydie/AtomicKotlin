@@ -1,4 +1,4 @@
-This repo exists to track my Kotlin learning progress with AtomicKotlin.
+This repo exists to track my Kotlin learning progress with *AtomicKotlin*, by Bruce Eckel and Svetlana Isakova.
 
 To do the same:
 
