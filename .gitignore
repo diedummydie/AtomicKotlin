@@ -23,9 +23,9 @@
 hs_err_pid*
 
 # custom
-.gradle/4.8/fileHashes/*
-.gradle/buildOutputCleanup/*
-.idea/workspace.xml
+fileHashes.*
+buildOutputCleanup.*
+workspace.xml
 
 # https://github.com/JetBrains/kotlin/blob/master/.gitignore
 .DS_Store
