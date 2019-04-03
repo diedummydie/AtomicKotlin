@@ -1,4 +1,4 @@
-This repo exists for tracking my progress with AtomicKotlin.
+This repo exists to track my Kotlin learning progress with AtomicKotlin.
 
 To do the same:
 
