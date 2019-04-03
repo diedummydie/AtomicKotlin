@@ -27,7 +27,7 @@ hs_err_pid*
 fileHashes.*
 buildOutputCleanup.*
 workspace.xml
-
+study_project.xml
 
 # https://github.com/github/gitignore/blob/master/Gradle.gitignore
 .gradle
