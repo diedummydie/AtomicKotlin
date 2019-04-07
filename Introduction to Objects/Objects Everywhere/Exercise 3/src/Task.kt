@@ -1,12 +1,14 @@
 package objectsEverywhere3
 
-fun isPalindrome(s: String): Boolean = TODO()
+fun isPalindrome(s: String): Boolean = s == s.reversed()
 
 fun isPalIgnoreCase(s: String): Boolean =
-        TODO()
+        isPalindrome(s.toLowerCase())
 
 fun isPalIgnoreSpecial(s: String): Boolean {
-    TODO()
+    var result = ""
+    for (c in s.toLowerCase()) if (c in 'a'..'z') result += c
+    return result == result.reversed()
 }
 
 fun main(args: Array<String>) {

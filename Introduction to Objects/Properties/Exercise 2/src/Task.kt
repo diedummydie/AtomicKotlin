@@ -1,28 +1,41 @@
 package properties2
 
 class Robot {
-    /*TODO*/
+    var x = 0
+    var y = 0
+    val fieldSize = 100
+
+    private fun move(pos: Int, dist: Int): Int {
+        val r = (pos + dist) % fieldSize
+        return when {
+            r < 0 -> r + fieldSize
+            r >= fieldSize -> r - fieldSize
+            else -> r
+        }
+    }
+
     fun goRight(steps: Int) {
-        TODO()
+        x = move(x, steps)
     }
 
     fun goLeft(steps: Int) {
-        TODO()
+        x = move(x, -steps)
     }
 
     fun goDown(steps: Int) {
-        TODO()
+        y = move(y, steps)
     }
 
     fun goUp(steps: Int) {
-        TODO()
+        y = move(y, -steps)
     }
 
-    fun getLocation(): String = TODO()
+    fun getLocation(): String = "($x,$y)"
 }
 
 fun main(args: Array<String>) {
     val robot = Robot()
+    println("-3 % 100: ${-3%100}")
     println(robot.getLocation())
     robot.goUp(1)
     println(robot.getLocation())
