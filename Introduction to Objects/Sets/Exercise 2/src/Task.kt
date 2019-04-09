@@ -3,7 +3,7 @@ package sets2
 import atomictest.eq
 
 fun hasUniqueCharacters(s: String): Boolean {
-    TODO()
+    return s.length == s.toSet().size
 }
 
 fun main(args: Array<String>) {
