@@ -3,7 +3,22 @@ package varargArguments1
 import atomictest.eq
 
 fun listOfChunks(size: Int, vararg elements: String): List<List<String>> {
-    TODO()
+    //return elements.toList().chunked(size)
+    var cursor = 0
+    var worker: List<String> = listOf()
+    var result: List<List<String>> = listOf()
+    for (elem in elements) {
+        worker += elem
+        if (     cursor > 0 &&
+                (cursor + 1) % size == 0 ||
+                 cursor == elements.lastIndex
+        ) {
+            result += listOf(worker)
+            worker = listOf()
+        }
+        cursor++
+    }
+    return result
 }
 
 fun main(args: Array<String>) {
