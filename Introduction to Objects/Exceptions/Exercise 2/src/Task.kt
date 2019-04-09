@@ -1,7 +1,7 @@
 package stacktrace
 
 fun foo() {
-    throw IllegalStateException("something is wrong")
+    //throw IllegalStateException("something is wrong")
 }
 
 fun bar() {
