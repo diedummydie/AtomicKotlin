@@ -28,6 +28,7 @@ fileHashes.*
 buildOutputCleanup.*
 workspace.xml
 study_project.xml
+/notes/
 
 # https://github.com/github/gitignore/blob/master/Gradle.gitignore
 .gradle
